@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="TIENDA.css">
+
+    <!--java script-->
+    <script src="TIENDA.js" defer></script>
+    <title>TIENDA</title>
+    <link rel="shortcut icon" href="logot/logo.png" type="image/x-icon"> <!--para el logo de la pestaña-->
+    <script src="https://kit.fontawesome.com/c3042ab71f.js" crossorigin="anonymous"></script> <!--enlace para los iconos de redes sociales-->
+</head>
+
+<body>
+    <!--ENCABEZADO-->
+  <header id="Header">
+    <img src="logot/logo.png" class="logo" alt="">
+    <input type="checkbox" id="menu" />
+    <label for="menu">
+      <img src="img/menu.png" class="menu_icono" alt="">
+    </label>
+
+    <ul class="menu">
+      <li class="item"><a href="index.html">INICIO</a></li>
+      <li class="item"><a href="GALERIA.html">GALERÍA</a></li>
+      <li class="item"><a href="CRIANZA.html">CRIANZA</a></li>
+      <li class="item"><a href="TIENDA.html">TIENDA</a></li>
+      <li class="item"><a href="PAGO.html">PAGO</a></li>
+    </ul>
+  </header>
+  <!--FIN ENCABEZADO-->
+
+    <div class="container">
+        <div class="linea"></div>
+        <div class="products_container">
+
+            <div class="product" data-name="p-1">
+                <img src="imga/IMG-20251002-WA0002_edit_178462367661139.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 4.000</div>
+            </div>
+
+            <div class="product" data-name="p-2">
+                <img src="imga/IMG-20251002-WA0008_edit_178423318837717.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 4.000</div>
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="imga/IMG-20251002-WA0012_edit_178410046184493.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 4.000</div>
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="imga/IMG-20251027-WA0015.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 4.700</div>
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="cm//tienda.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="cm//IMG_20251108_105153.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 4.000</div>
+            </div>
+
+            <div class="product" data-name="p-7">
+                <img src="forraje//IMG-20251029-WA0029.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 1.800</div>
+            </div>
+
+            <div class="product" data-name="p-8">
+                <img src="cm//IMG_20251108_093330.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 1.000</div>
+            </div>
+
+            <div class="product" data-name="p-9">
+                <img src="cm//IMG_20251108_105056.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.000</div>
+            </div>
+
+            <div class="product" data-name="p-10">
+                <img src="cm//IMG_20251108_105013.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+
+            <div class="product" data-name="p-11">
+                <img src="cm//IMG_20251108_105039.jpg" alt="">
+                <h3>LLAMA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+
+            <div class="product" data-name="p-12">
+                <img src="cm//IMG_20251108_103701.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 2.000</div>
+            </div>
+
+            <div class="product" data-name="p-13">
+                <img src="img_TIENDA/T-13.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+
+            <div class="product" data-name="p-14">
+                <img src="img_TIENDA/T-14.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+
+            <div class="product" data-name="p-15">
+                <img src="img_TIENDA/T-15.jpg" alt="">
+                <h3>ALPACA</h3>
+                <div class="price">Bs. 3.500</div>
+            </div>
+        </div>
+    </div>
+
+<!--PREVIEW-->
+    <div class="products_preview">
+        
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="imga/IMG-20251002-WA0002_edit_178462367661139.jpg" alt="">
+            <h3>Reservado Campeón Nacional</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 3 AÑOS <br>Categoría: C
+            </p>
+
+            <div class="price"> Bs. 4.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="imga/IMG-20251002-WA0008_edit_178423318837717.jpg" alt="">
+            <h3>Reservado Campeón Departamental</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: SURI <br>Sexo: MACHO <br>Edad: 4 AÑOS <br>Categoría: D
+            </p>
+
+            <div class="price"> Bs. 4.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <img src="imga/IMG-20251002-WA0012_edit_178410046184493.jpg" alt="">
+            <h3>RESERVADO CAMPEÓN</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: MACHO <br>Edad: 2 AÑOS <br>Categoría: B
+            </p>
+
+            <div class="price"> Bs. 4.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <img src="imga/IMG-20251027-WA0015.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: SURY <br>Sexo: MACHO <br>Edad: 3 AÑOS <br>Categoría: C
+            </p>
+
+            <div class="price"> Bs. 4.700</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <img src="cm//tienda.jpg" alt="">
+            <h3>REPRODUCTOR</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: SURI <br>Sexo: MACHO <br>Edad: 1 AÑOS <br>Categoría: A
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_105153.jpg" alt="">
+            <h3>REPRODUCTOR</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: SURI <br>Sexo: MACHO <br>Edad: 4 AÑOS <br>Categoría: D
+            </p>
+
+            <div class="price"> Bs. 4.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-7">
+            <i class="fas fa-times"></i>
+            <img src="forraje//IMG-20251029-WA0029.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: MACHO <br>Edad: 4 AÑOS <br>Categoría: D
+            </p>
+
+            <div class="price"> Bs. 1.800</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-8">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_093330.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 1 AÑOS <br>Categoría: A
+            </p>
+
+            <div class="price"> Bs. 1.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-9">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_105056.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: MACHO <br>Edad: 4 AÑOS <br>Categoría: D
+            </p>
+
+            <div class="price"> Bs. 3.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-10">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_105013.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 1 AÑO <br>Categoría: A
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-11">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_105039.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: Q'ARA <br>Sexo: HEMBRA <br>Edad: 1 AÑO <br>Categoría: A
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-12">
+            <i class="fas fa-times"></i>
+            <img src="cm//IMG_20251108_103701.jpg" alt="">
+            <h3>ALPACA</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 3 AÑO <br>Categoría: C
+            </p>
+
+            <div class="price"> Bs. 2.000</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-13">
+            <i class="fas fa-times"></i>
+            <img src="img_TIENDA/T-13.jpg" alt="">
+            <h3>Gran Campeón Nacional</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 1 AÑO <br>Categoría: A
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-14">
+            <i class="fas fa-times"></i>
+            <img src="img_TIENDA/T-14.jpg" alt="">
+            <h3>Gran Campeón Nacional</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: HEMBRA <br>Edad: 3 AÑOS <br>Categoría: C
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="preview" data-target="p-15">
+            <i class="fas fa-times"></i>
+            <img src="img_TIENDA/T-15.jpg" alt="">
+            <h3>Gran Campeón Nacional</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                <span>( 250 )</span>
+            </div>
+            <p>
+                Raza: HUACAYA <br>Sexo: MACHO <br>Edad: 3 AÑOS <br>Categoría: C
+            </p>
+
+            <div class="price"> Bs. 3.500</div>
+            <div class="buttons">
+                <a href="#" class="buy">Comprar ahora</a>
+                <a href="#" class="cart">Agregar al carrito</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--PIE DE PAGINA-->
+  <footer class="pie_pagina">
+    <div class="grupo_1">
+
+      <div class="box">
+        <figure>
+          <a href="fuente de internet">
+            <img src="logot/logo.png" alt="">
+          </a>
+        </figure>
+      </div>
+
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>CONTÁCTANOS AL: +591 63668572</p>
+        <p>COSAPA - ORURO - BOLIVIA</p>
+      </div>
+
+    <div class="grupo_2">
+      <small>EXPERTOS EN MEJORAMIENTO GENÉTICO DE GANADO CAMÉLIDO</small>
+    </div>
+  </footer>
+  <!--FIN PIE DE PAGINA-->
+</body>
+
+</html>
